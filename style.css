@@ -1,0 +1,55 @@
+/*
+Theme Name: Theme Boyen
+Author: Boyen de Leeuw
+Author URI: https://boyendeleeuw.nl/
+Description:
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: boyen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: 'font', sans-serif;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+
+
+/* ### -----  SECTIONS  ----- ### */
+
+
+/* ### -----  CONTAINER  ----- ### */
+
+.container {
+  width: 250px;
+  margin: 0 auto;
+}
+
+@media (min-width: 350px) {.container {width: 350px;}}
+@media (min-width: 400px) {.container {width: 350px;}}
+@media (min-width: 600px) {.container {width: 450px;}}
+@media (min-width: 768px) {.container {width: 600px;}}
+@media (min-width: 1024px) {.container {width: 950px;}}
+@media (min-width: 1440px) {.container {width: 1050px;}}
+@media (min-width: 2560px) {.container {width: 2000px;}}
